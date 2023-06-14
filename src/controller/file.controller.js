@@ -93,6 +93,10 @@ const download = async (req, res) => {
   }
 };
 
+const download = async (req, res) => {
+  console.log("Hello Guys");
+};
+
 module.exports = {
   upload,
   getListFiles,
