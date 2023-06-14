@@ -93,7 +93,7 @@ const download = async (req, res) => {
   }
 };
 
-const download = async (req, res) => {
+const home = async (req, res) => {
   console.log("Hello Guys");
 };
 
