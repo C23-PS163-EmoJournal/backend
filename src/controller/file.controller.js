@@ -93,8 +93,13 @@ const download = async (req, res) => {
   }
 };
 
+const gethome = (req, res) => {
+  res.send("Hello, World!");
+};
+
 module.exports = {
   upload,
   getListFiles,
   download,
+  gethome,
 };
